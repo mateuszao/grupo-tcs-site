@@ -37,9 +37,9 @@ img {
 	max-width: 100%;
 }
 
-body {
+/* body {
 	padding-top: 110px;
-}
+} */
 
 /* / * MENU * / */
 header {
@@ -49,7 +49,13 @@ header {
 }
 
 .menu-bg {
+	background: transparent;
+	transition: .5s;
+}
+
+.menu-bg-scroll {
 	background: #6B3CB7;
+	transition: .5s;
 }
 
 .menu {
@@ -71,7 +77,7 @@ header {
 }
 
 .menu-nav a {
-	font-size: 18px;
+	font-size: 22px;
 	display: block;
   padding: 10px;
   margin: 0 10px;
@@ -86,7 +92,7 @@ header {
 
 .home-container {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
   background: url('../img/bg-home.png') no-repeat;
   background-size: cover;
@@ -96,7 +102,7 @@ header {
 
 .div-container h1{
   font-family: var(--UniNeue-HeavyItalic);
-	font-size: 50px;
+	font-size: 60px;
 	color: #FFFFFF;
 	margin-bottom: 60px;
 }
@@ -145,8 +151,8 @@ header {
 }
 
 .card-body-text {
-	height: 180px;
-	background: url('../img/img-card-um.png') no-repeat center;
+	/* height: 180px;
+	background: url('../img/img-card-um.png') no-repeat center; */
 	background-size: cover;
 	display: flex;
 	justify-content: center;
@@ -171,8 +177,8 @@ header {
 }
 
 .card-body-text-dois {
-	height: 180px;
-	background: url('../img/img-card-dois.png') no-repeat center;
+	/* height: 180px;
+	background: url('../img/img-card-dois.png') no-repeat center; */
 	background-size: cover;
 	display: flex;
 	justify-content: center;
@@ -197,8 +203,8 @@ header {
 }
 
 .card-body-text-tres {
-	height: 180px;
-	background: url('../img/img-card-tres.png') no-repeat center;
+	/* height: 180px;
+	background: url('../img/img-card-tres.png') no-repeat center; */
 	background-size: cover;
 	display: flex;
 	justify-content: center;
@@ -223,8 +229,8 @@ header {
 }
 
 .card-body-text-quatro {
-	height: 180px;
-	background: url('../img/img-card-quatro.png') no-repeat center;
+	/* height: 180px;
+	background: url('../img/img-card-quatro.png') no-repeat center; */
 	background-size: cover;
 	display: flex;
 	justify-content: center;
@@ -248,6 +254,8 @@ header {
 	cursor: pointer;
 }
 
+
+
 @media (min-width: 1500px) {
 	.card-body-text,
 	.card-body-text-dois,
@@ -264,10 +272,85 @@ header {
 	}
 
 	.home-container {
-		height: 85vh;
+		height: 100vh;
 	}
 
 	.div-container h1{
 		font-size: 75px;
 	}
+}
+
+/* / * Quem Somos * / */
+.quem-somos-container {
+	width: 100%;
+}
+
+.quem-somos-container h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 70px;
+	padding-top: 60px;
+	color: #505050;
+}
+
+.quem-somos-container p{
+	font-family: var(--UniNeue-Light);
+	font-size: 28px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: #505050;
+}
+
+.img-bolinhas {
+	position: relative;
+	top: 0;
+	right: 0;
+}
+
+/* / * O que Valorizamos * / */
+
+.oque-valorisamos-container {
+	width: 100%;
+	padding-top: 60px;
+}
+
+.oque-valorisamos-container h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 70px;
+	color: #505050;
+}
+
+.oque-valorisamos-container p{
+	font-family: var(--UniNeue-Light);
+	font-size: 28px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: #505050;
+}
+
+/* / * Nossas Empresas * / */
+.nossas-empresas-container {
+	width: 100%;
+}
+
+.nossas-empresas-container h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 70px;
+	padding-top: 60px;
+	color: #6D3DBA;
+}
+
+.nossas-empresas-container img {
+	padding-top: 60px;
+}
+
+.row-empresas {
+	padding-top: 60px;
+}
+
+.row-empresas h2 {
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 28px;
+	padding-top: 15px;
+	color: #8C8C8C;
+	
 }
