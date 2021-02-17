@@ -345,7 +345,116 @@ header {
 
 .row-empresas {
 	padding-top: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	border: #4D2C84 solid 4px;
 }
+
+.empresa-body {
+	flex: 1;
+}
+
+.empresa-flex {
+	/* background: chartreuse; */
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	padding: 15px;
+}
+
+
+/* / * Nossas Empresas - Imagens Inicio * / */
+.img-empresa-body-um {
+	background: url('../img/Nossas-Empresas/tcs-industrial.png') no-repeat center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.img-empresa-body-um:hover {
+	background: url('../img/Nossas-Empresas/tcs-industrial-color.png') no-repeat center;
+}
+
+.img-empresa-body-dois {
+	background: url('../img/Nossas-Empresas/luminus.png') no-repeat center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.img-empresa-body-dois:hover {
+	background: url('../img/Nossas-Empresas/luminus-color.png') no-repeat center;
+}
+
+.img-empresa-body-tres {
+	background: url('../img/Nossas-Empresas/fortune.png') no-repeat center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.img-empresa-body-tres:hover {
+	background: url('../img/Nossas-Empresas/fortune-color.png') no-repeat center;
+}
+
+
+.img-empresa-body-quatro {
+	background: url('../img/Nossas-Empresas/invision.png') no-repeat center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.img-empresa-body-quatro:hover {
+	background: url('../img/Nossas-Empresas/invision-color.png') no-repeat center;
+}
+
+.img-empresa-body-cinco {
+	background: url('../img/Nossas-Empresas/kuara.png') no-repeat center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.img-empresa-body-cinco:hover {
+	background: url('../img/Nossas-Empresas/kuara-color.png') no-repeat center;
+}
+
+.img-empresa-body-seis {
+	background: url('../img/Nossas-Empresas/tcx.png') no-repeat center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.img-empresa-body-seis:hover {
+	background: url('../img/Nossas-Empresas/tcx-color.png') no-repeat center;
+}
+
+.img-empresa-body-sete {
+	background: url('../img/Nossas-Empresas/AutoMais.png') no-repeat center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.img-empresa-body-sete:hover {
+	background: url('../img/Nossas-Empresas/AutoMais-color.png') no-repeat center;
+}
+
+.img-empresa-body-oito {
+	background: url('../img/Nossas-Empresas/UseCar.png') no-repeat center;
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.img-empresa-body-oito:hover {
+	background: url('../img/Nossas-Empresas/UseCar-color.png') no-repeat center;
+}
+
+/* / * Nossas Empresas - Imagens Fim * / */
 
 .row-empresas h2 {
 	font-family: var(--UniNeue-HeavyItalic);
