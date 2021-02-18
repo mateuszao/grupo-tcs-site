@@ -7,6 +7,8 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap-grid.css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
 </head>
 <body>
 	<header class="menu-bg">
@@ -14,6 +16,8 @@
 			<div class="menu-logo">
 				<a href="#"><img src="img/logo-tcs.png" class="logo-tcs" alt="logo-tcs"></a>
 			</div>
+
+			<div class="openMenu"><i class="fa fa-bars"></i></div>
 			<nav class="menu-nav">
 				<ul>
 					<li><a href="#sobre">Quem somos</a></li>
@@ -21,6 +25,7 @@
 					<li><a href="#preco">História</a></li>
           <li><a href="#preco">Trabalhe Conosco</a></li>
           <li><a href="#preco">Contato</a></li>
+					<div class="closeMenu"><i class="fa fa-times"></i></div>
 				</ul>
 			</nav>
 		</div>
@@ -78,21 +83,19 @@
 
 
 	<section class="quem-somos-container container">
-		<div class="row">
-			<div class="col-md-7">
-				<h1>Quem <br> Somos</h1>
-	
-				<p>
-					Somos um GRUPO de empresas especializadas em soluções tecnológicas nos mais diversos segmentos do mercado! Desenvolvemos soluções especiais em automação, tecnologia da informação, sistemas de visão, rastreabilidade, dispositivos IoT, mobilidade, saúde e varejo. 
-					Além disso, temos um forte viés social,
-					pois a nossa principal missão é fazer o bem e impactar positivamente a vida das pessoas!
-				</p>
-			</div>
-
-			<div class="col-md-3">
-				<img src="img/bolinhas.png" class="img-bolinhas" alt="">
-			</div>
+		<div class="quem-somos-text">	
+			<h1>Quem <br> Somos</h1>
+			
+			<p>
+				Somos um GRUPO de empresas especializadas em soluções tecnológicas nos mais diversos segmentos do mercado! Desenvolvemos soluções especiais em automação, tecnologia da informação, sistemas de visão, rastreabilidade, dispositivos IoT, mobilidade, saúde e varejo. 
+				Além disso, temos um forte viés social,
+				pois a nossa principal missão é fazer o bem e impactar positivamente a vida das pessoas!
+			</p>
 		</div>
+
+		<!-- <div>
+			<img src="img/bolinhas.png" class="img-bolinhas" alt="">
+		</div> -->
 	</section>
 
 	<section class="oque-valorisamos-container container">
@@ -117,12 +120,10 @@
 	<section class="nossas-empresas-container container">
 		<div class="row">
 			<div class="col-md-12 gx-md-5">
-				<div class="row">
-					<div class="col-md-9">
-						<h1>Nossas <br> Empresas</h1>
-					</div>
-					<div class="col-md-3">
-						<img src="img/simbolo-grupo.png" alt="">
+				<div class="empresas-topo">
+					<h1 class="empresas-topo-body">Nossas <br> Empresas</h1>
+					<div>
+						<img src="img/simbolo-grupo.png" class="empresas-topo-body" alt="">
 					</div>
 				</div>
 

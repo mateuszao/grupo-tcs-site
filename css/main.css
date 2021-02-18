@@ -88,6 +88,46 @@ header {
 	height: 80px;
 }
 
+.openMenu, .closeMenu  {
+	font-size: 2rem;
+	margin: 20px;
+	display: none;
+	cursor: pointer;
+}
+
+.openMenu, .closeMenu  {
+	color: #fff;
+	
+}
+
+@media(max-width: 800px){
+	.menu-nav ul {
+			height: 100vh;
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;
+			z-index: 10;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background: #000;
+			transition: top 1s ease;
+			display: none;
+	}
+	.menu-nav ul .closeMenu {
+			display: block;
+			position: absolute;
+			top: 20px;
+			right: 20px;
+
+	}
+	.menu-bg .openMenu {
+			display: block;
+	}
+
+}
+
 /* / * Home * / */
 
 .home-container {
@@ -283,6 +323,9 @@ header {
 /* / * Quem Somos * / */
 .quem-somos-container {
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border: #4D2C84 solid 4px;
 }
 
 .quem-somos-container h1{
@@ -300,11 +343,17 @@ header {
 	color: #505050;
 }
 
-.img-bolinhas {
-	position: relative;
-	top: 0;
-	right: 0;
+/*  /* Mudar aqui depois * / */
+.quem-somos-text {
+	max-width: 960px;
 }
+
+.img-bolinhas {
+	width: 1000px;
+	height: 200px;
+}
+
+/*  /* Mudar aqui depois * / */
 
 /* / * O que Valorizamos * / */
 
@@ -332,22 +381,28 @@ header {
 	width: 100%;
 }
 
-.nossas-empresas-container h1{
+.empresas-topo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.empresas-topo-body {
 	font-family: var(--UniNeue-HeavyItalic);
 	font-size: 70px;
 	padding-top: 60px;
 	color: #6D3DBA;
 }
 
-.nossas-empresas-container img {
+.empresas-topo-body img {
 	padding-top: 60px;
+	width: 150px;
 }
 
 .row-empresas {
 	padding-top: 60px;
 	display: flex;
 	flex-wrap: wrap;
-	border: #4D2C84 solid 4px;
 }
 
 .empresa-body {
