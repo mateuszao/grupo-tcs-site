@@ -9,7 +9,7 @@ $(window).on('scroll', function(){
   }
 })
 
-const mainMenu = document.querySelector('.menu-nav ul');
+const mainMenu = document.querySelector('nav');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 
@@ -22,5 +22,5 @@ function show(){
     mainMenu.style.top = '0';
 }
 function close(){
-    mainMenu.style.top = '-100%';
+    mainMenu.style.top = '-130%';
 }

@@ -101,8 +101,8 @@ header {
 }
 
 @media(max-width: 800px){
-	.menu-nav ul {
-			height: 100vh;
+	nav {
+			height: 125vh;
 			position: fixed;
 			top: 0;
 			right: 0;
