@@ -174,7 +174,7 @@ header {
 }
 
 .contato-home-dois {
-	padding: 18px 75px;
+	padding: 18px 86px;
 	font-size: 18px;
 	background: transparent;
 	border: #fff solid 5px;
@@ -194,7 +194,12 @@ header {
 	.contato-home-dois {
 		position: relative;
     top: 55px;
-    left: 7px;
+    left: 3px;
+	}
+
+	.div-container h1{
+		max-width: 330px;
+    font-size: 38px;
 	}
 
 	.openMenu {
@@ -388,7 +393,7 @@ header {
 
 @media(max-width : 472px){	
 	.quem-somos-container h1{
-		font-size: 42px;
+		font-size: 38px;
 	}
 
 	.quem-somos-container p {
@@ -432,7 +437,7 @@ header {
 	}
 
 	.oque-valorisamos-container h1{
-		font-size: 42px;
+		font-size: 38px;
 	}
 
 	.oque-valorisamos-container p {
@@ -592,7 +597,7 @@ header {
 
 @media(max-width : 472px){	
 	.empresas-topo-body {
-		font-size: 42px;
+		font-size: 38px;
 	}
 
 	.empresas-topo img {
