@@ -385,6 +385,16 @@ header {
 		font-size: 55px;
 	}
 }
+
+@media(max-width : 472px){	
+	.quem-somos-container h1{
+		font-size: 42px;
+	}
+
+	.quem-somos-container p {
+		font-size: 22px;
+	}
+}
 /* / * O que Valorizamos * / */
 
 .oque-valorisamos-container {
@@ -413,6 +423,20 @@ header {
 
 	.oque-valorisamos-container h1{
 		font-size: 55px;
+	}
+}
+
+@media(max-width : 472px){	
+	.oque-valorisamos-container img{
+		display: none;
+	}
+
+	.oque-valorisamos-container h1{
+		font-size: 42px;
+	}
+
+	.oque-valorisamos-container p {
+		font-size: 22px;
 	}
 }
 
@@ -567,7 +591,12 @@ header {
 }
 
 @media(max-width : 472px){	
+	.empresas-topo-body {
+		font-size: 42px;
+	}
+
 	.empresas-topo img {
-		display: none;
+		width: 105px;
+		height: 105px;
 	}
 }
