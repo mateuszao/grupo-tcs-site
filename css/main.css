@@ -137,6 +137,11 @@ header {
 	.container {
 		width: 90%;
 	}
+
+	.openMenu {
+		position: relative;
+    right: -150px;
+	} 
 }
 
 
@@ -191,6 +196,11 @@ header {
     top: 55px;
     left: 7px;
 	}
+
+	.openMenu {
+		position: relative;
+		left: 50px;
+	} 
 }
 
 /* / * Home * / */
