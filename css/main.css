@@ -16,7 +16,7 @@
 }
 
 /* * {
-	border: #fff solid 5px;
+	border: #4D2C84 solid 5px;
 } */
 
 body, h1, h2, p, ul, li, a {
@@ -46,6 +46,7 @@ header {
 	position: fixed;
 	width: 100%;
 	top: 0;
+	z-index: 10;
 }
 
 .menu-bg {
@@ -98,7 +99,7 @@ header {
 
 
 @media(max-width: 986px){
-	nav  {
+	.menu .mainMenu  {
 			width: 100%;
 			height: 100vh;
 			position: fixed;
@@ -106,30 +107,43 @@ header {
 			right: 0;
 			left: 0;
 			z-index: 1000;
+			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			background: #000;
+			background: #EDEDED;
 			transition: top 1s ease;
 			display: none;
 	}
-	.menu-nav ul .closeMenu {
+	.menu .mainMenu .closeMenu {
 			display: block;
 			position: absolute;
 			top: 20px;
 			right: 20px;
 
 	}
-	.menu-bg .openMenu {
+	.menu .openMenu {
 			display: block;
 	}
 
+	.menu a {
+		color: #5B2FA1;
+	}
+
+	.closeMenu {
+		color: #5B2FA1;
+	}
+
+	.container {
+		width: 90%;
+	}
 }
+
 
 /* / * Home * / */
 
 .home-container {
-  width: 100%;
+  /* width: 100%; */
   height: 100vh;
   overflow: hidden;
   background: url('../img/bg-home.png') no-repeat;
@@ -162,6 +176,21 @@ header {
 	border-radius: 50px;
 	color: #fff;
 	font-family: var(--UniNeue-HeavyItalic);
+}
+
+@media(max-width: 986px){
+	.div-container h1{
+		max-width: 330px;
+    font-size: 42px;
+	}
+}
+
+@media(max-width : 472px){	
+	.contato-home-dois {
+		position: relative;
+    top: 55px;
+    left: 7px;
+	}
 }
 
 /* / * Home * / */
@@ -323,7 +352,7 @@ header {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	border: #4D2C84 solid 4px;
+	/* border: #4D2C84 solid 4px; */
 }
 
 .quem-somos-container h1{
@@ -341,18 +370,11 @@ header {
 	color: #505050;
 }
 
-/*  /* Mudar aqui depois * / */
-.quem-somos-text {
-	max-width: 960px;
+@media(max-width: 986px){
+	.quem-somos-container h1{
+		font-size: 55px;
+	}
 }
-
-.img-bolinhas {
-	width: 1000px;
-	height: 200px;
-}
-
-/*  /* Mudar aqui depois * / */
-
 /* / * O que Valorizamos * / */
 
 .oque-valorisamos-container {
@@ -373,6 +395,17 @@ header {
 	padding-bottom: 60px;
 	color: #505050;
 }
+
+@media(max-width: 986px){
+	.oque-valorisamos-container img{
+		display: none;
+	}
+
+	.oque-valorisamos-container h1{
+		font-size: 55px;
+	}
+}
+
 
 /* / * Nossas Empresas * / */
 .nossas-empresas-container {
@@ -515,4 +548,16 @@ header {
 	padding-top: 15px;
 	color: #8C8C8C;
 	
+}
+
+@media(max-width: 986px){
+	.empresas-topo-body {
+		font-size: 55px;
+	}
+}
+
+@media(max-width : 472px){	
+	.empresas-topo img {
+		display: none;
+	}
 }
