@@ -37,9 +37,9 @@ img {
 	max-width: 100%;
 }
 
-/* body {
-	padding-top: 110px;
-} */
+body {
+	background: #F3F3F3;
+}
 
 /* / * MENU * / */
 header {
