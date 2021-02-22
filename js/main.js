@@ -25,3 +25,11 @@ function show(){
 function close(){
     mainMenu.style.top = '-130%';
 }
+
+
+$('.owl-carousel').owlCarousel({
+  items:1,
+  margin:10,
+  autoHeight:true
+  
+});
