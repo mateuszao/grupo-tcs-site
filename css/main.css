@@ -78,7 +78,7 @@ header {
 }
 
 .menu-nav a {
-	font-size: 22px;
+	font-size: 18px;
 	display: block;
   padding: 10px;
   margin: 0 10px;
@@ -159,7 +159,7 @@ header {
 
 .div-container h1{
   font-family: var(--UniNeue-HeavyItalic);
-	font-size: 60px;
+	font-size: 42px;
 	color: #FFFFFF;
 	margin-bottom: 60px;
 }
@@ -338,7 +338,7 @@ header {
 
 
 
-@media (min-width: 1500px) {
+/* @media (min-width: 1500px) {
 	.card-body-text,
 	.card-body-text-dois,
 	.card-body-text-tres,
@@ -360,7 +360,7 @@ header {
 	.div-container h1{
 		font-size: 75px;
 	}
-}
+} */
 
 /* / * Quem Somos * / */
 .quem-somos-container {
@@ -372,14 +372,14 @@ header {
 
 .quem-somos-container h1{
 	font-family: var(--UniNeue-HeavyItalic);
-	font-size: 70px;
+	font-size: 42px;
 	padding-top: 60px;
 	color: #505050;
 }
 
 .quem-somos-container p{
 	font-family: var(--UniNeue-Light);
-	font-size: 28px;
+	font-size: 22px;
 	padding-top: 30px;
 	padding-bottom: 60px;
 	color: #505050;
@@ -409,13 +409,13 @@ header {
 
 .oque-valorisamos-container h1{
 	font-family: var(--UniNeue-HeavyItalic);
-	font-size: 70px;
+	font-size: 42px;
 	color: #505050;
 }
 
 .oque-valorisamos-container p{
 	font-family: var(--UniNeue-Light);
-	font-size: 28px;
+	font-size: 22px;
 	padding-top: 30px;
 	padding-bottom: 60px;
 	color: #505050;
@@ -459,7 +459,7 @@ header {
 
 .empresas-topo-body {
 	font-family: var(--UniNeue-HeavyItalic);
-	font-size: 70px;
+	font-size: 42px;
 	padding-top: 60px;
 	color: #6D3DBA;
 }
@@ -493,8 +493,8 @@ header {
 .img-empresa-body-um {
 	background: url('../img/Nossas-Empresas/tcs-industrial.png') no-repeat center;
 	background-size: cover;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 }
 
 .img-empresa-body-um:hover {
@@ -504,8 +504,8 @@ header {
 .img-empresa-body-dois {
 	background: url('../img/Nossas-Empresas/luminus.png') no-repeat center;
 	background-size: cover;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 }
 
 .img-empresa-body-dois:hover {
@@ -515,8 +515,8 @@ header {
 .img-empresa-body-tres {
 	background: url('../img/Nossas-Empresas/fortune.png') no-repeat center;
 	background-size: cover;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 }
 
 .img-empresa-body-tres:hover {
@@ -527,8 +527,8 @@ header {
 .img-empresa-body-quatro {
 	background: url('../img/Nossas-Empresas/invision.png') no-repeat center;
 	background-size: cover;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 }
 
 .img-empresa-body-quatro:hover {
@@ -538,8 +538,8 @@ header {
 .img-empresa-body-cinco {
 	background: url('../img/Nossas-Empresas/kuara.png') no-repeat center;
 	background-size: cover;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 }
 
 .img-empresa-body-cinco:hover {
@@ -549,8 +549,8 @@ header {
 .img-empresa-body-seis {
 	background: url('../img/Nossas-Empresas/tcx.png') no-repeat center;
 	background-size: cover;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 }
 
 .img-empresa-body-seis:hover {
@@ -560,8 +560,8 @@ header {
 .img-empresa-body-sete {
 	background: url('../img/Nossas-Empresas/AutoMais.png') no-repeat center;
 	background-size: cover;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 }
 
 .img-empresa-body-sete:hover {
@@ -571,19 +571,20 @@ header {
 .img-empresa-body-oito {
 	background: url('../img/Nossas-Empresas/UseCar.png') no-repeat center;
 	background-size: cover;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 }
 
 .img-empresa-body-oito:hover {
 	background: url('../img/Nossas-Empresas/UseCar-color.png') no-repeat center;
+	
 }
 
 /* / * Nossas Empresas - Imagens Fim * / */
 
 .row-empresas h2 {
 	font-family: var(--UniNeue-HeavyItalic);
-	font-size: 28px;
+	font-size: 22px;
 	padding-top: 15px;
 	color: #8C8C8C;
 	
