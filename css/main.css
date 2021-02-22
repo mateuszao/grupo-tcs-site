@@ -614,13 +614,6 @@ header {
 	background: #6B3CB7;
 }
 
-@media (max-height: 820px) {
-	.timeline-container {
-		height: 115vh;
-
-  }
-}
-
 .timeline-container h1{
 	font-family: var(--UniNeue-HeavyItalic);
 	font-size: 42px;
@@ -628,10 +621,23 @@ header {
 	padding-top: 60px;
 }
 
-
 .timeline-container-body {
 	padding-top: 30px;
-	/* max-width: 960px;
-	display: flex;
-	a */
+}
+
+@media (max-height: 820px) {
+	.timeline-container {
+		height: 115vh;
+
+  }
+}
+
+@media (max-height: 720px) {
+	.timeline-container {
+		height: 100vh;
+  }
+
+	.timeline-container h1{
+		font-size: 38px;
+	}
 }
