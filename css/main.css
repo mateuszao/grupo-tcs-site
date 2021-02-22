@@ -610,8 +610,15 @@ header {
 /* / * Timeline * / */
 .timeline-container {
 	width: 100%;
-	height: 125vh;
+	height: 100vh;
 	background: #6B3CB7;
+}
+
+@media (max-height: 820px) {
+	.timeline-container {
+		height: 115vh;
+
+  }
 }
 
 .timeline-container h1{
@@ -620,6 +627,7 @@ header {
 	color: #FFF;
 	padding-top: 60px;
 }
+
 
 .timeline-container-body {
 	padding-top: 30px;
