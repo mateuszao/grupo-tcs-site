@@ -597,6 +597,12 @@ header {
 	}
 }
 
+@media(max-width: 768px){
+	.row-empresas h2 {
+		text-align: center;
+	}
+}
+
 @media(max-width : 472px){	
 	.empresas-topo-body {
 		font-size: 38px;
