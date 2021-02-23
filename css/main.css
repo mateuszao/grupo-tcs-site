@@ -91,7 +91,7 @@ header {
 	display: block;
 	width: 0;
 	height: 3px;
-	background: #6B3CB7;
+	background: #EDEDED;
 	transition: width .3s;
 	margin-top: 5px;
 }
@@ -101,20 +101,6 @@ header {
 	transform: width .3s;
 }
 
-.menu-bg-scroll .a-link-menu::after {
-	content: '';
-	display: block;
-	width: 0;
-	height: 3px;
-	background: #EDEDED;
-	transition: width .3s;
-	margin-top: 5px;
-}
-
-.menu-bg-scroll .a-link-menu:hover::after {
-	width: 100%;
-	transform: width .3s;
-}
 
 
 .logo-tcs {
