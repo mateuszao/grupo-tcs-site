@@ -1,4 +1,5 @@
 /* / * FONTS * / */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @font-face {
   font-family: UniNeue-HeavyItalic;
   src: url('../fonts/UniNeue-HeavyItalic.otf');
@@ -11,7 +12,7 @@
 
 /*===== Fonts =====*/
 :root{
-  --UniNeue-Light: 'UniNeue-Light';
+  --UniNeue-Light: 'Montserrat';
 	--UniNeue-HeavyItalic: 'UniNeue-HeavyItalic';
 }
 
@@ -85,6 +86,37 @@ header {
 	font-family: var(--UniNeue-HeavyItalic);
 }
 
+.a-link-menu::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background: #6B3CB7;
+	transition: width .3s;
+	margin-top: 5px;
+}
+
+.a-link-menu:hover::after {
+	width: 100%;
+	transform: width .3s;
+}
+
+.menu-bg-scroll .a-link-menu::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background: #EDEDED;
+	transition: width .3s;
+	margin-top: 5px;
+}
+
+.menu-bg-scroll .a-link-menu:hover::after {
+	width: 100%;
+	transform: width .3s;
+}
+
+
 .logo-tcs {
 	height: 80px;
 }
@@ -142,6 +174,10 @@ header {
 		position: relative;
     right: -150px;
 	} 
+
+	.menu-bg-scroll .a-link-menu::after {
+		background: #6D3DBA;
+	}
 }
 
 
@@ -332,7 +368,7 @@ header {
 .card-body-quatro:hover {
   transform: scale(1.01);
   transition: 0.4s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
 	cursor: pointer;
 }
 
