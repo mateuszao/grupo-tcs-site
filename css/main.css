@@ -756,7 +756,7 @@ footer {
 
 @media (max-height: 720px) {
 	.duvidas-container{
-		height: 90vh;
+		height: auto;
 	}
 
 	.duvidas-container-body h1 {
@@ -766,6 +766,24 @@ footer {
 	
 	footer {
 		height: auto;
+		margin-top: 60px;
+	}
+	
+}
+
+@media (max-height: 820px) {
+	.duvidas-container{
+		height: auto;
+	}
+
+	.duvidas-container-body h1 {
+		font-size: 31px;
+		padding-bottom: 15px;
+	}
+	
+	footer {
+		height: auto;
+		margin-top: 60px;
 	}
 	
 }
