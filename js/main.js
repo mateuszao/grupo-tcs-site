@@ -40,22 +40,6 @@ $('.owl-carousel').owlCarousel({
 });
 
 if (window.matchMedia('(max-width: 787px)').matches) {
-  
-  // carrousel.classList.add('w-100');
-  // jsFormId.classList.remove('w-50');
-  // h1Sessao02.remove();
-  // jsSessao02.classList.add('mt-js-mobile');
-  
-  // var h1Sessao02Img = document.createElement('h1');
-  // h1Sessao02Img.innerHTML = 'Quem é Gabriel Mota?';
-  // h1Sessao02Img.classList.add('h4');
-  // h1Sessao02Img.classList.add('titulo-texto-sobre');
-  // h1Sessao02Img.classList.add('texto-sobre-js');
-  // h1Sessao02Img.classList.add('mt-5');
-
-  // jsSessao02Img.appendChild(h1Sessao02Img);
-  
-  
   var ImagensCarrosel = document.querySelectorAll('.item img');
   var divCarrosel = document.querySelectorAll('.item');
   ImagensCarrosel.forEach(removeImagens)
@@ -75,12 +59,20 @@ if (window.matchMedia('(max-width: 787px)').matches) {
     imagem.src = "img/timeline-01-mobile.png";
     item.appendChild(imagem);
   }
-  
-  
-
-
-
-  
-  //ImagensCarrosel.remove();
-  
 }
+
+
+// ------ Animação ------ //
+
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '80px',
+  duration: 2000,
+  reset: true
+})
+
+/* === Scroll HOME === */
+sr.reveal('.home__title', {})
+sr.reveal('.home__title', {delay: 400})
+sr.reveal('.contato-home', {delay: 200})
+sr.reveal('.contato-home-dois', {delay: 200})

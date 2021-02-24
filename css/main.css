@@ -16,9 +16,9 @@
 	--UniNeue-HeavyItalic: 'UniNeue-HeavyItalic';
 }
 
-/* * {
-	border: #4D2C84 solid 5px;
-} */
+* {
+	text-align: justify;
+}
 
 body, h1, h2, p, ul, li, a {
 	margin: 0px;
