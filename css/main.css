@@ -386,10 +386,12 @@ header {
 
 /* / * Quem Somos * / */
 .quem-somos-container {
-	width: 100%;
+	width: 99%;
 	display: flex;
 	justify-content: space-between;
-	/* border: #4D2C84 solid 4px; */
+	//border: #4D2C84 solid 4px;
+	background: url('../img/bolinhas.png') right no-repeat;
+	background-position: 110% 38%;
 }
 
 .quem-somos-container h1{
@@ -692,7 +694,7 @@ header {
 	background-color: #EDEDED;
 	background: url('../img/simbolo-grupo-bg.png') no-repeat left;
 	background-size: 320px;
-	background-position: 5% 75%;
+	background-position: -2% 75%
 }
 
 .duvidas-container-body {
@@ -794,6 +796,11 @@ footer {
 	.footer-sociais-icon {
 		flex-direction: column;
 	}
+
+	.footer-sociais-icon h2 {
+		margin-left: 0;
+		padding-top: 10px;
+	}
 }
 
 @media (max-height: 820px) {
@@ -811,9 +818,6 @@ footer {
 		margin-top: 60px;
 	}
 
-	.footer-sociais-icon h2 {
-		margin-left: 0;
-		padding-top: 10px;
-	}
+
 	
 }
