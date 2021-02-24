@@ -16,9 +16,9 @@
 	--UniNeue-HeavyItalic: 'UniNeue-HeavyItalic';
 }
 
-* {
+/* * {
 	text-align: justify;
-}
+} */
 
 body, h1, h2, p, ul, li, a {
 	margin: 0px;
