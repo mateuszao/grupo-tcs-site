@@ -414,6 +414,10 @@ header {
 	.quem-somos-container h1{
 		font-size: 55px;
 	}
+
+	.quem-somos-container {
+		background: none;
+	}
 }
 
 @media(max-width : 472px){	
@@ -423,6 +427,10 @@ header {
 
 	.quem-somos-container p {
 		font-size: 22px;
+	}
+
+	.quem-somos-container {
+		background: none;
 	}
 }
 /* / * O que Valorizamos * / */
