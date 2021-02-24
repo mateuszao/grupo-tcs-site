@@ -1,5 +1,4 @@
 // ------ Mudando cor Menu  ------ //
-
 $(window).on('scroll', function(){
   if($(window).scrollTop()){
     $('header').addClass('menu-bg-scroll');
@@ -10,7 +9,6 @@ $(window).on('scroll', function(){
     $('header').removeClass('menu-bg-scroll');
   }
 })
-
 
 // ------ Menu Mobile  ------ //
 const mainMenu = document.querySelector('.mainMenu');
@@ -45,15 +43,12 @@ if (window.matchMedia('(max-width: 787px)').matches) {
   ImagensCarrosel.forEach(removeImagens)
   
   function removeImagens(item) {
-    //console.log(item);
     item.remove();
   }
 
   divCarrosel.forEach(adicionaImagem)
 
   function adicionaImagem(item){
-
-    console.log(item);
 
     var imagem = document.createElement('img');
     imagem.src = "img/timeline-01-mobile.png";
@@ -69,45 +64,70 @@ const sr = ScrollReveal({
   distance: '80px',
   duration: 2000,
   reset: true
-})
+});
 
 // ------ Scroll HOME ------ //
-sr.reveal('.home__title', {})
-sr.reveal('.home__title', {delay: 400})
-sr.reveal('.contato-home', {delay: 200})
-sr.reveal('.contato-home-dois', {delay: 200})
+sr.reveal('.home__title', {});
+sr.reveal('.home__title', {delay: 400});
+sr.reveal('.contato-home', {delay: 200});
+sr.reveal('.contato-home-dois', {delay: 200});
 
 // ------ Scroll Cards ------ //
-sr.reveal('.card-body h1', {})
-sr.reveal('.card-body h1', {delay: 100})
-sr.reveal('.card-body-dois h1', {delay: 100})
-sr.reveal('.card-body-tres h1', {delay: 100})
-sr.reveal('.card-body-quatro h1', {delay: 100})
+sr.reveal('.card-body h1', {});
+sr.reveal('.card-body h1', {delay: 100});
+sr.reveal('.card-body-dois h1', {delay: 100});
+sr.reveal('.card-body-tres h1', {delay: 100});
+sr.reveal('.card-body-quatro h1', {delay: 100});
 
 // ------ Quem somos ------ //
-sr.reveal('.quem-somos-text', {})
-sr.reveal('.quem-somos-text', {delay: 100})
+sr.reveal('.quem-somos-text', {});
+sr.reveal('.quem-somos-text', {delay: 100});
 
 // ------ O que valorizamos ------ //
 sr.reveal('.oque-valorisamos-container h1', {})
-sr.reveal('.oque-valorisamos-container h1', {delay: 100})
-sr.reveal('.oque-valorisamos-container p', {delay: 100})
+sr.reveal('.oque-valorisamos-container h1', {delay: 100});
+sr.reveal('.oque-valorisamos-container p', {delay: 100});
 
 // ------ Empresas ------ //
 sr.reveal('.empresas-topo', {})
-sr.reveal('.empresas-topo', {delay: 100})
-sr.reveal('.row-empresas', {delay: 200})
+sr.reveal('.empresas-topo', {delay: 100});
+sr.reveal('.row-empresas', {delay: 200});
 
 // ------ Empresas ------ //
-sr.reveal('.timeline-container', {})
-sr.reveal('.timeline-container', {delay: 100})
+sr.reveal('.timeline-container', {});
+sr.reveal('.timeline-container', {delay: 100});
 
 // ------ Empresas ------ //
-sr.reveal('.duvidas-container', {})
-sr.reveal('..duvidas-container', {delay: 100})
+sr.reveal('.duvidas-container', {});
+sr.reveal('..duvidas-container', {delay: 100});
 
 // ------ Empresas ------ //
-sr.reveal('footer', {})
-sr.reveal('footer', {delay: 100})
+sr.reveal('footer', {});
+sr.reveal('footer', {delay: 100});
 
 
+
+const linksInternos = document.querySelectorAll('.mainMenu a[href^="#"]');
+
+function scrollToSection(event) {
+  event.preventDefault();
+  const href = event.currentTarget.getAttribute('href');
+  const section = document.querySelector(href);
+  // section.scrollIntoView({
+  //   behavior: 'smooth',
+  //   block: 'start',
+  // });
+
+  console.log(section.offsetTop - 120);
+
+  // forma alternativa
+  const topo = section.offsetTop - 110;
+  window.scrollTo({
+    top: topo,
+    behavior: 'smooth',
+  });
+}
+
+linksInternos.forEach((link) => {
+  link.addEventListener('click', scrollToSection);
+});
