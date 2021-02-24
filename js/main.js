@@ -93,17 +93,18 @@ sr.reveal('.empresas-topo', {})
 sr.reveal('.empresas-topo', {delay: 100});
 sr.reveal('.row-empresas', {delay: 200});
 
-// ------ Empresas ------ //
-sr.reveal('.timeline-container', {});
+// ------ Timeline ------ //
+sr.reveal('.timeline-container h1', {});
 sr.reveal('.timeline-container', {delay: 100});
 
 // ------ Empresas ------ //
-sr.reveal('.duvidas-container', {});
-sr.reveal('..duvidas-container', {delay: 100});
+sr.reveal('.duvidas-container-body h1', {});
+sr.reveal('.duvidas-container-body h1', {delay: 100});
+sr.reveal('.duvidas-container-body div', {delay: 100});
 
 // ------ Empresas ------ //
-sr.reveal('footer', {});
-sr.reveal('footer', {delay: 100});
+sr.reveal('footer div', {});
+sr.reveal('footer div', {delay: 100});
 
 
 
