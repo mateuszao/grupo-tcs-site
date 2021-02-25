@@ -389,7 +389,7 @@ header {
 	width: 99%;
 	display: flex;
 	justify-content: space-between;
-	//border: #4D2C84 solid 4px;
+	/* border: #4D2C84 solid 4px; */
 	background: url('../img/bolinhas.png') right no-repeat;
 	background-position: 110% 38%;
 }

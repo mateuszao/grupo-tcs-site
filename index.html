@@ -8,11 +8,8 @@
 	<link rel="shortcut icon" href="img/FavIcon/FavIcon.png">
   <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap-grid.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
-
-
 </head>
 <body>
 	<header class="menu-bg">
@@ -43,7 +40,7 @@
 					<h1 class="home__title">Nossa missão é impactar, valorizar, inovar e empreender.</h1>
 					
 					<a href="#contato" class="contato-home">Nossas Empresas</a>
-					<a href="#contato" class="contato-home-dois">    Contato   </a>
+					<a href="#contato" data-modal="abrir" class="contato-home-dois">    Contato   </a>
 				</div>
 			</div>
 		</div>
@@ -227,7 +224,7 @@
 
 			<div>
 				<h2>Teremos o maior prazer <br> em lhe atender!</h2>
-				<a href="#contato" class="contato-home" style="border-bottom: 30px;">      Entre em contato      </a>
+				<a href="#contato" class="contato-home" data-modal="abrir" style="border-bottom: 30px;">      Entre em contato      </a>
 			</div>
 		</div>
 	</section>
@@ -258,6 +255,34 @@
 		</div>
 	</footer>
 	
+	<section class="modal-container" data-modal="container">
+    <div class="modal">
+      <!-- <button data-modal="fechar" class="fechar"></button> -->
+      <div class="div-contato">
+				<h1>Entre em contato conosco!</h1>
+			</div>
+			<form action="">
+				<div class="col-md-12 inputWithIcon">
+					<input type="text" class="form-control mb-3" id="inputNome" value="" name="inputNome" required placeholder="Digite seu Nome">
+					<i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+				</div>
+				<div class="col-md-12 inputWithIcon">
+					<input type="email" class="form-control mb-3" id="inputEmail" value="" name="inputEmail" required placeholder="Digite seu Email">
+					<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+				</div>
+				<div class="col-md-12 inputWithIcon">
+					<input type="text" class="form-control mb-3" id="inputTelefone" value="" name="inputTelefone" required placeholder="Digite seu Telefone">
+					<i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+				</div>
+				
+				<div class="col-md-12 inputWithIcon">
+					<textarea class="form-control form-control" id="inputTextarea" name="inputTextarea" value="" required placeholder="Digite sua Mensagem" rows="3"></textarea>
+					<i class="fa fa-pen fa-lg fa-fw" aria-hidden="true"></i>
+				</div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
 
 	<script
   src="https://code.jquery.com/jquery-3.5.1.js"

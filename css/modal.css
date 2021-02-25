@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@font-face {
+  font-family: UniNeue-HeavyItalic;
+  src: url('../fonts/UniNeue-HeavyItalic.otf');
+}
+
+:root{
+  --Montserrat: 'Montserrat';
+	--UniNeue-HeavyItalic: 'UniNeue-HeavyItalic';
+  --first-color: #6B3CB7;
+}
+
+.modal-container {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0,0,0,.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container.ativo {
+  display: flex;
+}
+
+.modal {
+  background: #FAFAFA;
+  min-width: 300px;
+  position: relative;
+}
+
+form {
+  padding: 40px;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ativo .modal {
+  animation: modal .3s forwards;
+}
+
+.fechar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid white;
+  top: -30px;
+  right: -30px;
+  position: absolute;
+  background: #6B3CB7;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+  font-size: 1.2rem;
+  color: white;
+  font-family: var(--Montserrat);
+  cursor: pointer;
+}
+
+.modal label {
+  font-family: var(--Montserrat);
+  display: block;
+  font-weight: bold;
+  margin: 1rem 0 .5rem 0;
+}
+
+.modal input, .modal textarea {  
+  width: 100%;
+  padding: .7rem .5rem;
+  box-sizing: border-box;
+  background: #FAFAFA;
+  border-radius: 10px;
+}
+
+.modal button[type="submit"] {
+  display: block;
+  background: #6B3CB7;
+  border: none;
+  border-radius: 4px;
+  padding: .7rem 2rem;
+  font-size: 1rem;
+  color: white;
+  font-family: var(--Montserrat);
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.div-contato {
+  width: 100%;
+  height: 80px;
+  background: #6B3CB7;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.div-contato h1 {
+  font-family: var(--UniNeue-HeavyItalic);
+  font-size: 28px;
+  color: #FAFAFA;
+  padding: 0 20px 0 20px;
+}
+
+
+
+
+.inputWithIcon input[type="text"], .inputWithIcon input[type="email"], .inputWithIcon textarea {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: var(--first-color);
+}
+
+input[type="text"]:focus {
+  border-color: var(--first-color);
+  box-shadow: 0 0 8px 0 var(--first-color);
+}
+
+.inputWithIcon input[type="email"]:focus + i {
+  color: var(--first-color);
+}
+
+input[type="email"]:focus {
+  border-color: var(--first-color);
+  box-shadow: 0 0 8px 0 var(--first-color);
+}
+
+.inputWithIcon textarea:focus + i {
+  color: var(--first-color);
+}
+
+.inputWithIcon textarea:focus {
+  border-color: var(--first-color);
+  box-shadow: 0 0 8px 0 var(--first-color);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea.form-control {
+  width: 80%;
+}
