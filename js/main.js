@@ -146,10 +146,11 @@ scrollInterno();
 
 
 function initModal() {
-  const botaoAbrir = document.querySelector('[data-modal="abrir"]');
+  const botaoAbrir = document.querySelectorAll('[data-modal="abrir"]');
   const botaoFechar = document.querySelector('[data-modal="fechar"]');
   const containerModal = document.querySelector('[data-modal="container"]');
   
+  console.log(botaoAbrir);
   if(botaoAbrir && containerModal) {
     
     function toggleModal(event) {
@@ -161,8 +162,13 @@ function initModal() {
         toggleModal(event);
       }
     }
-  
-    botaoAbrir.addEventListener('click', toggleModal);
+    
+    botaoAbrir.forEach(abrirBtn);
+
+    function abrirBtn(btn){
+      btn.addEventListener('click', toggleModal);
+    }
+    
     containerModal.addEventListener('click', cliqueForaModal);
   }
 }

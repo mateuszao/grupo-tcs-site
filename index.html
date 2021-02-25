@@ -26,7 +26,7 @@
 					<li><a href="#nossas-empresas" class="a-link-menu">Nossas Empresas</a></li>
 					<li><a href="#historia" class="a-link-menu">História</a></li>
           <li><a href="#preco" class="a-link-menu">Trabalhe Conosco</a></li>
-          <li><a href="#contato" class="a-link-menu">Contato</a></li>
+          <li><a data-modal="abrir" class="a-link-menu">Contato</a></li>
 					<div class="closeMenu"><i class="fa fa-times"></i></div>
 				</ul>
 			</nav>
@@ -39,7 +39,7 @@
 				<div class="div-container col-md-8">
 					<h1 class="home__title">Nossa missão é impactar, valorizar, inovar e empreender.</h1>
 					
-					<a href="#contato" class="contato-home">Nossas Empresas</a>
+					<a href="#nossas-empresas" class="contato-home">Nossas Empresas</a>
 					<a href="#contato" data-modal="abrir" class="contato-home-dois">    Contato   </a>
 				</div>
 			</div>
@@ -180,7 +180,7 @@
 						</div>
 					</div>
 					
-					<div class="empresa-body" style="padding-bottom: 60px;">
+					<div class="empresa-body" style="padding-bottom: 120px;">
 						<div class="empresa-flex">
 							<div class="img-empresa-body-oito"></div>
 							<h2>UseCar</h2>
@@ -224,7 +224,7 @@
 
 			<div>
 				<h2>Teremos o maior prazer <br> em lhe atender!</h2>
-				<a href="#contato" class="contato-home" data-modal="abrir" style="border-bottom: 30px;">      Entre em contato      </a>
+				<a data-modal="abrir" class="contato-home" data-modal="abrir" style="border-bottom: 30px;">      Entre em contato      </a>
 			</div>
 		</div>
 	</section>
@@ -274,11 +274,17 @@
 					<input type="text" class="form-control mb-3" id="inputTelefone" value="" name="inputTelefone" required placeholder="Digite seu Telefone">
 					<i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>
 				</div>
+
+				<div class="col-md-12 inputWithIcon">
+					<input type="text" class="form-control mb-3" id="inputEmpresa" value="" name="inputEmpresa" required placeholder="Digite sua Empresa">
+					<i class="far fa-lg fa-building"></i>
+				</div>
 				
 				<div class="col-md-12 inputWithIcon">
 					<textarea class="form-control form-control" id="inputTextarea" name="inputTextarea" value="" required placeholder="Digite sua Mensagem" rows="3"></textarea>
 					<i class="fa fa-pen fa-lg fa-fw" aria-hidden="true"></i>
 				</div>
+				
         <button type="submit">Enviar</button>
       </form>
     </div>
