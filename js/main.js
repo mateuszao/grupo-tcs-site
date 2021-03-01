@@ -187,19 +187,19 @@ function redirecionaPagina(){
 
   if(btnImpactar && btnValorizar && btnInovar && btnEmpreender){
     btnImpactar.addEventListener('click', function() {
-      window.location.href = "/page-impactar.html";
+      window.location.href = base_url + "/page-impactar.html";
     });
   
     btnValorizar.addEventListener('click', function() {
-      window.location.href = "file:///E:/Projetos/grupo-tcs-site/page-valorizar.html";
+      window.location.href = base_url + "/page-valorizar.html";
     });
   
     btnInovar.addEventListener('click', function() {
-      window.location.href = "file:///E:/Projetos/grupo-tcs-site/page-inovar.html";
+      window.location.href = base_url + "/page-inovar.html";
     });
   
     btnEmpreender.addEventListener('click', function() {
-      window.location.href = "file:///E:/Projetos/grupo-tcs-site/page-empreender.html";
+      window.location.href = base_url + "/page-empreender.html";
     });
   }
 }
