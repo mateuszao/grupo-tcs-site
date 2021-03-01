@@ -1,6 +1,6 @@
 /* / * Home * / */
 .home-impactar {
-  height: 80vh;
+  height: 100vh;
   overflow: hidden;
   background: url('../img/impactar-bg.png') no-repeat;
   background-size: cover;
@@ -91,7 +91,6 @@
 }
 
 
-
 /* / * Numeros Luminus * / */
 
 .numeros-container {
@@ -147,7 +146,7 @@
 	}
 }
 
-/* Impactar  */
+/* Impactar sessão 03  */
 .impactar-container {
 	width: 100%;
   margin-bottom: 60px;

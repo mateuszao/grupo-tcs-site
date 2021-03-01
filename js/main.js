@@ -110,13 +110,13 @@ function animaSite(){
   sr.reveal('.timeline-container', {delay: 100});
 
   // ------ Empresas ------ //
-  sr.reveal('.duvidas-container-body h1', {});
-  sr.reveal('.duvidas-container-body h1', {delay: 100});
-  sr.reveal('.duvidas-container-body div', {delay: 100});
+  // sr.reveal('.duvidas-container-body h1', {});
+  // sr.reveal('.duvidas-container-body h1', {delay: 100});
+  // sr.reveal('.duvidas-container-body div', {delay: 100});
 
-  // ------ Empresas ------ //
-  sr.reveal('footer div', {});
-  sr.reveal('footer div', {delay: 100});
+  // // ------ Empresas ------ //
+  // sr.reveal('footer div', {});
+  // sr.reveal('footer div', {delay: 100});
 }
 
 animaSite();

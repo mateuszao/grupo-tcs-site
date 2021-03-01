@@ -1,4 +1,4 @@
-/* / * Contato / Duvidas * / */
+/* / * Contato / Duvidas 01 * / */
 .duvidas-container{
 	width: 100%;
 	height: 40vh;
@@ -6,12 +6,6 @@
 	background: url('../img/simbolo-grupo-bg.png') no-repeat left;
 	background-size: 320px;
 	background-position: -2% 75%
-}
-
-.duvidas-container-dois{
-	width: 100%;
-	height: auto;
-	background-color: #542C93;
 }
 
 .duvidas-container-body {
@@ -33,6 +27,14 @@
 	font-size: 22px;
 	color: #505050;
 	padding-bottom: calc(25px + 20px);
+}
+
+/* / * Contato / Duvidas 02 * / */
+
+.duvidas-container-dois{
+	width: 100%;
+	height: auto;
+	background-color: #542C93;
 }
 
 .duvidas-container-body-dois {
