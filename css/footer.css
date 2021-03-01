@@ -58,16 +58,7 @@ footer {
 	margin: 0;
 }
 
-@media (max-height: 720px) {
-	.duvidas-container{
-		height: auto;
-	}
-
-	.duvidas-container-body h1 {
-		font-size: 31px;
-		padding-bottom: 15px;
-	}
-	
+@media (max-height: 720px) {	
 	footer {
 		height: auto;
 		padding-top: 60px;
@@ -84,15 +75,6 @@ footer {
 }
 
 @media (max-height: 820px) {
-	.duvidas-container{
-		height: auto;
-	}
-
-	.duvidas-container-body h1 {
-		font-size: 31px;
-		padding-bottom: 15px;
-	}
-	
 	footer {
 		height: auto;
 		padding-top: 60px;

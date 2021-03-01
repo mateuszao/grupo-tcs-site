@@ -10,7 +10,7 @@
 
 .duvidas-container-dois{
 	width: 100%;
-	height: 40vh;
+	height: auto;
 	background-color: #542C93;
 }
 
@@ -57,13 +57,28 @@
 }
 
 
-@media (max-height: 720px) {
+@media(max-width: 768px){
 	.duvidas-container{
 		height: auto;
 	}
 
+	.duvidas-container-body h1 {
+		font-size: 31px;
+		padding-bottom: 15px;
+	}
+	
 
-	.duvidas-container-dois{
+	.duvidas-container-body-dois h1 {
+		font-size: 31px;
+		padding-bottom: 15px;
+	}
+
+	.duvidas-container{
 		height: auto;
+	}
+
+	.duvidas-container-body h1 {
+		font-size: 31px;
+		padding-bottom: 15px;
 	}
 }
