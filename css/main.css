@@ -68,6 +68,7 @@ body {
 	border-radius: 35px;
 	color: #fff;
 	font-family: var(--UniNeue-HeavyItalic);
+	cursor: pointer;
 }
 
 .contato-home-dois {
@@ -78,6 +79,7 @@ body {
 	border-radius: 35px;
 	color: #fff;
 	font-family: var(--UniNeue-HeavyItalic);
+	cursor: pointer;
 }
 
 @media(max-width: 986px){
