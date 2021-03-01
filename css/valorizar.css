@@ -1,0 +1,78 @@
+/* / * Home * / */
+.home-valorizar {
+  height: 60vh;
+  overflow: hidden;
+  background: url('../img/valorizar-bg.png') no-repeat;
+  background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.div-valorizar h1{
+  font-family: var(--UniNeue-HeavyItalic);
+	font-size: 42px;
+	color: #FFFFFF;
+	display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+
+/* / * Impactar somo container * / */
+.valorizar-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	/* border: #4D2C84 solid 4px; */
+	background: url('../img/bolinhas.png') right no-repeat;
+	background-position: 110% 38%;
+}
+
+.valorizar-container h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 42px;
+	padding-top: 60px;
+	color: #505050;
+}
+
+.valorizar-container p{
+	font-family: var(--UniNeue-Light);
+	font-size: 22px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: #505050;
+	max-width: 600px;
+}
+
+@media(max-width: 986px){
+	.valorizar-container h1{
+		font-size: 55px;
+	}
+
+	.valorizar-container {
+		background: none;
+	}
+
+	.home-valorizar {
+		height: 80vh;
+	}
+}
+
+@media(max-width : 472px){	
+	.valorizar-container h1{
+		font-size: 38px;
+	}
+
+	.valorizar-container p {
+		font-size: 22px;
+	}
+
+	.valorizar-container {
+		background: none;
+	}
+
+	.home-valorizar {
+		height: 80vh;
+	}
+}
+

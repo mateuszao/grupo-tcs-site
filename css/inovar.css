@@ -1,0 +1,79 @@
+/* / * Home * / */
+.home-inovar {
+  height: 60vh;
+  overflow: hidden;
+  background: url('../img/inovar-bg.png') no-repeat;
+  background-size: cover;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+
+.div-inovar h1{
+  font-family: var(--UniNeue-HeavyItalic);
+	font-size: 42px;
+	color: #FFFFFF;
+	display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+
+/* / * Impactar somo container * / */
+.inovar-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	/* border: #4D2C84 solid 4px; */
+	background: url('../img/bolinhas.png') right no-repeat;
+	background-position: 110% 38%;
+}
+
+.inovar-container h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 42px;
+	padding-top: 60px;
+	color: #505050;
+}
+
+.inovar-container p{
+	font-family: var(--UniNeue-Light);
+	font-size: 22px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: #505050;
+	max-width: 600px;
+}
+
+@media(max-width: 986px){
+	.inovar-container h1{
+		font-size: 55px;
+	}
+
+	.inovar-container {
+		background: none;
+	}
+
+	.home-inovar {
+		height: 80vh;
+	}
+}
+
+@media(max-width : 472px){	
+	.inovar-container h1{
+		font-size: 38px;
+	}
+
+	.inovar-container p {
+		font-size: 22px;
+	}
+
+	.inovar-container {
+		background: none;
+	}
+
+	.home-inovar {
+		height: 80vh;
+	}
+}
+

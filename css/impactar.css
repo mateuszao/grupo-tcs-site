@@ -1,6 +1,6 @@
 /* / * Home * / */
 .home-impactar {
-  height: 100vh;
+  height: 60vh;
   overflow: hidden;
   background: url('../img/impactar-bg.png') no-repeat;
   background-size: cover;
@@ -12,7 +12,9 @@
   font-family: var(--UniNeue-HeavyItalic);
 	font-size: 42px;
 	color: #FFFFFF;
-	margin-bottom: 60px;
+	display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 @media(max-width: 986px){
@@ -23,21 +25,9 @@
 }
 
 @media(max-width : 472px){	
-	.contato-home-dois {
-		position: relative;
-    top: 55px;
-    left: 3px;
+	.home-impactar {
+		height: 80vh;
 	}
-
-	.div-container h1{
-		max-width: 330px;
-    font-size: 38px;
-	}
-
-	.openMenu {
-		position: relative;
-		left: 50px;
-	} 
 }
 
 /* / * Impactar somo container * / */
