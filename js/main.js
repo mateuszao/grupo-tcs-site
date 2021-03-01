@@ -187,7 +187,7 @@ function redirecionaPagina(){
 
   if(btnImpactar && btnValorizar && btnInovar && btnEmpreender){
     btnImpactar.addEventListener('click', function() {
-      window.location.href = base_url + "/page-impactar.html";
+      window.location.href = base_url + "/grupo-tcs-site/page-impactar.html";
     });
   
     btnValorizar.addEventListener('click', function() {
