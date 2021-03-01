@@ -1,0 +1,55 @@
+/* / * Contato / Duvidas * / */
+.duvidas-container{
+	width: 100%;
+	height: 40vh;
+	background-color: #EDEDED;
+	background: url('../img/simbolo-grupo-bg.png') no-repeat left;
+	background-size: 320px;
+	background-position: -2% 75%
+}
+
+.duvidas-container-dois{
+	width: 100%;
+	height: 40vh;
+	background-color: #542C93;
+}
+
+.duvidas-container-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+
+.duvidas-container-body h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 38px;
+	color: #505050;
+}
+
+.duvidas-container-body h2{
+	font-family: var(--UniNeue-Light);
+	font-size: 22px;
+	color: #505050;
+	padding-bottom: calc(25px + 20px);
+}
+
+.duvidas-container-body-dois {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+
+.duvidas-container-body-dois h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 38px;
+	color: #EDEDED;
+}
+
+.duvidas-container-body-dois h2{
+	font-family: var(--UniNeue-Light);
+	font-size: 22px;
+	color: #EDEDED;
+	padding-bottom: calc(25px + 20px);
+}

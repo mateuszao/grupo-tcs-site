@@ -1,0 +1,130 @@
+/* / * Home * / */
+
+.home-impactar {
+  height: 70vh;
+  overflow: hidden;
+  background: url('../img/impactar-bg.png') no-repeat;
+  background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.div-impactar h1{
+  font-family: var(--UniNeue-HeavyItalic);
+	font-size: 42px;
+	color: #FFFFFF;
+	margin-bottom: 60px;
+}
+
+@media(max-width: 986px){
+	.div-container h1{
+		max-width: 330px;
+    font-size: 42px;
+	}
+}
+
+@media(max-width : 472px){	
+	.contato-home-dois {
+		position: relative;
+    top: 55px;
+    left: 3px;
+	}
+
+	.div-container h1{
+		max-width: 330px;
+    font-size: 38px;
+	}
+
+	.openMenu {
+		position: relative;
+		left: 50px;
+	} 
+}
+
+/* / * Numeros Luminus * / */
+
+.numeros-container {
+	width: 100%;
+}
+
+.numeros-container h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 100px;
+	color: #505050;
+  /* padding-top: 60px; */
+}
+
+.numeros-container h2{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 28px;
+	color: #505050;
+  text-align: center
+}
+
+.numeros-container p{
+	font-family: var(--UniNeue-Light);
+	font-size: 22px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: #505050;
+}
+
+.numeros-container-num {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media(max-width: 986px){
+	.numeros-container h1{
+		font-size: 55px;
+	}
+}
+
+@media(max-width : 472px){	
+	.numeros-container img{
+		display: none;
+	}
+
+	.numeros-container h1{
+		font-size: 38px;
+	}
+
+	.numeros-container p {
+		font-size: 22px;
+	}
+}
+
+/* Impactar  */
+.impactar-container {
+	width: 100%;
+  margin-bottom: 60px;
+}
+
+.impactar-container p{
+	font-family: var(--UniNeue-Light);
+	font-size: 22px;
+	padding-top: 30px;
+	color: #505050;
+}
+
+.icon-impactar, .impactar-container-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(max-width : 472px){	
+	.quem-somos-container h1{
+		font-size: 38px;
+	}
+
+	.quem-somos-container p {
+		font-size: 22px;
+	}
+
+	.quem-somos-container {
+		background: none;
+	}
+}
