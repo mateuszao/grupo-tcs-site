@@ -177,7 +177,9 @@ initModal();
 
 
 function redirecionaPagina(){
-  
+  var base_url = window.location.origin;
+  console.log(base_url)
+
   btnImpactar = document.querySelector('.card-body');
   btnValorizar = document.querySelector('.card-body-dois');
   btnInovar = document.querySelector('.card-body-tres');
@@ -185,7 +187,7 @@ function redirecionaPagina(){
 
   if(btnImpactar && btnValorizar && btnInovar && btnEmpreender){
     btnImpactar.addEventListener('click', function() {
-      window.location.href = "file:///E:/Projetos/grupo-tcs-site/page-impactar.html";
+      window.location.href = "/page-impactar.html";
     });
   
     btnValorizar.addEventListener('click', function() {
