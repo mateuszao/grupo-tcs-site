@@ -73,6 +73,7 @@
 
 	.home-valorizar {
 		height: 80vh;
+		background: url('../img/valorizar-bg-mobile.png') no-repeat;
 	}
 }
 

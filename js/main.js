@@ -191,15 +191,15 @@ function redirecionaPagina(){
     });
   
     btnValorizar.addEventListener('click', function() {
-      window.location.href = base_url + "/page-valorizar.html";
+      window.location.href = base_url + "/grupo-tcs-site/page-valorizar.html";
     });
   
     btnInovar.addEventListener('click', function() {
-      window.location.href = base_url + "/page-inovar.html";
+      window.location.href = base_url + "/grupo-tcs-site/page-inovar.html";
     });
   
     btnEmpreender.addEventListener('click', function() {
-      window.location.href = base_url + "/page-empreender.html";
+      window.location.href = base_url + "/grupo-tcs-site/page-empreender.html";
     });
   }
 }
