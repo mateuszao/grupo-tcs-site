@@ -82,6 +82,17 @@ body {
 	cursor: pointer;
 }
 
+.contato-home-tres {
+	padding: 20px 55px;
+	font-size: 18px;
+	background: transparent;
+	border: #fff solid 4px;
+	border-radius: 35px;
+	color: #fff;
+	font-family: var(--UniNeue-HeavyItalic);
+	cursor: pointer;
+}
+
 @media(max-width: 986px){
 	.div-container h1{
 		max-width: 330px;
