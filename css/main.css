@@ -369,11 +369,10 @@ body {
 
 .div-img-flex {
 	display: flex;
-	/* border: #2B164D solid 4px; */
-	justify-content: center;
+	align-items: center;
 	/* margin-top: 30px; */
+	height: 50vh;
 }
-
 
 /* / * Nossas Empresas * / */
 .nossas-empresas-container {

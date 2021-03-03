@@ -73,7 +73,7 @@ carrosel();
 function animaSite(){
   const sr = ScrollReveal({
     origin: 'top',
-    distance: '80px',
+    distance: '60px',
     duration: 2000,
     reset: true
   });
@@ -84,16 +84,9 @@ function animaSite(){
   sr.reveal('.contato-home', {delay: 200});
   sr.reveal('.contato-home-dois', {delay: 200});
 
-  // ------ Scroll Cards ------ //
-  // sr.reveal('.card-body h1', {});
-  // sr.reveal('.card-body h1', {delay: 100});
-  // sr.reveal('.card-body-dois h1', {delay: 100});
-  // sr.reveal('.card-body-tres h1', {delay: 100});
-  // sr.reveal('.card-body-quatro h1', {delay: 100});
-
   // ------ Quem somos ------ //
-  sr.reveal('.quem-somos-text', {});
-  sr.reveal('.quem-somos-text', {delay: 100});
+  sr.reveal('.quem-somos-animate', {});
+  sr.reveal('.quem-somos-animate', {delay: 100});
 
   // ------ O que valorizamos ------ //
   sr.reveal('.oque-valorisamos-container h1', {})
