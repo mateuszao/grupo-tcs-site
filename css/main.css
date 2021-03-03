@@ -342,9 +342,16 @@ body {
 	color: #505050;
 }
 
+.div-img-flex {
+	display: flex;
+	align-items: center;
+	/* margin-top: 30px; */
+	height: 50vh;
+}
+
 @media(max-width: 986px){
 	.oque-valorisamos-container img{
-		display: none;
+		
 	}
 
 	.oque-valorisamos-container h1{
@@ -354,24 +361,35 @@ body {
 
 @media(max-width : 472px){	
 	.oque-valorisamos-container img{
-		display: none;
+		margin-bottom: 30px;
 	}
 
 	.oque-valorisamos-container h1{
 		font-size: 38px;
+		padding-top: 30px;
 	}
 
 	.oque-valorisamos-container p {
 		font-size: 22px;
+		padding-bottom: 30px;
 	}
-}
 
+	.quem-somos-container p {
+		padding-bottom: 30px;
+	}
+	
+	.quem-somos-container h1 {
+		padding-top: 30px;
+	}
 
-.div-img-flex {
-	display: flex;
-	align-items: center;
-	/* margin-top: 30px; */
-	height: 50vh;
+	.oque-valorisamos-container {
+		padding-top: 30px;
+	}
+
+	.div-img-flex {
+		align-items: start;
+		height: 30vh;
+	}
 }
 
 /* / * Nossas Empresas * / */
