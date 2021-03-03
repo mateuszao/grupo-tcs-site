@@ -274,7 +274,7 @@ body {
 
 /* / * Quem Somos * / */
 .quem-somos-container {
-	width: 99%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	/* border: #4D2C84 solid 4px; */
@@ -295,7 +295,7 @@ body {
 	padding-top: 30px;
 	padding-bottom: 60px;
 	color: #505050;
-	max-width: 600px;
+	max-width: 700px;
 }
 
 @media(max-width: 986px){
@@ -364,6 +364,14 @@ body {
 	.oque-valorisamos-container p {
 		font-size: 22px;
 	}
+}
+
+
+.div-img-flex {
+	display: flex;
+	/* border: #2B164D solid 4px; */
+	justify-content: center;
+	/* margin-top: 30px; */
 }
 
 
