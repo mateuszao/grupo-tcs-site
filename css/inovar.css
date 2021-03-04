@@ -5,7 +5,7 @@
   background-color: #2B2B2B;
   display: flex;
   position: fixed;
-  z-index: 10;
+  z-index: 5;
   margin-top: -10vh;
 }
 
