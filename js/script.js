@@ -4,7 +4,6 @@ import carrosel from './modules/carrosel.js';
 import animaSite from './modules/animaSite.js';
 import scrollInterno from './modules/scrollInterno.js';
 import initModal from './modules/initModal.js';
-import redirecionaPagina from './modules/redirecionaPagina.js';
 
 scrollMenu();
 menuMobile();
@@ -12,4 +11,3 @@ carrosel();
 animaSite();
 scrollInterno();
 initModal();
-redirecionaPagina();
