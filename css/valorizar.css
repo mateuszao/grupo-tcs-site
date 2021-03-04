@@ -1,11 +1,38 @@
 /* / * Home * / */
+.container-valorizar {
+  width: 100%;
+  height: 10vh;
+  background-color: #2B2B2B;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  margin-top: -10vh;
+}
+
+.body-container-valorizar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.body-container-valorizar h1 {
+  color: #FFFFFF;
+  font-family: var(--UniNeue-HeavyItalic);
+  font-size: 28px;
+	margin-left: 20px;
+}
+
+
 .home-valorizar {
-  height: 60vh;
+  height: 30vh;
   overflow: hidden;
   background: url('../img/valorizar-bg.png') no-repeat;
   background-size: cover;
 	display: flex;
 	align-items: center;
+  justify-content: center;
+	margin-top: calc(110px + 10vh);
 }
 
 .div-valorizar h1{
@@ -54,7 +81,7 @@
 	}
 
 	.home-valorizar {
-		height: 80vh;
+		height: 30vh;
 	}
 }
 
@@ -72,7 +99,7 @@
 	}
 
 	.home-valorizar {
-		height: 80vh;
+		height: 30vh;
 		background: url('../img/valorizar-bg-mobile.png') no-repeat;
 	}
 }

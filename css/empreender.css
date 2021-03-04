@@ -1,13 +1,40 @@
 /* / * Home * / */
+.container-empreender {
+  width: 100%;
+  height: 10vh;
+  background-color: #2B2B2B;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  margin-top: -10vh;
+}
+
+.body-container-empreender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.body-container-empreender h1 {
+  color: #FFFFFF;
+  font-family: var(--UniNeue-HeavyItalic);
+  font-size: 28px;
+	margin-left: 20px;
+}
+
+
 .home-empreender {
-  height: 60vh;
+  height: 30vh;
   overflow: hidden;
   background: url('../img/empreender-bg.png') no-repeat;
   background-size: cover;
 	display: flex;
 	align-items: center;
   justify-content: center;
+	margin-top: calc(110px + 10vh);
 }
+
 
 .div-empreender h1{
   font-family: var(--UniNeue-HeavyItalic);
@@ -65,7 +92,7 @@
 	}
 
   .home-empreender {
-    height: 80vh;
+    height: 30vh;
   }
 
   .empreender-container {
