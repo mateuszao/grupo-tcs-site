@@ -364,6 +364,10 @@ body {
 		margin-bottom: 30px;
 	}
 
+	.img-valores {
+		display: none;
+	}
+
 	.oque-valorisamos-container h1{
 		font-size: 38px;
 		padding-top: 30px;
