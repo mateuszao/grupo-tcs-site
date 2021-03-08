@@ -592,6 +592,7 @@ body {
 
 .timeline-container {
 	height: auto;
+	margin-top: 60px;
 }
 
 .owl-theme .owl-nav.disabled+.owl-dots{
