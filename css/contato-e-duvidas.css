@@ -1,7 +1,7 @@
 /* / * Contato / Duvidas 01 * / */
 .duvidas-container{
 	width: 100%;
-	height: 40vh;
+	height: auto;
 	background-color: #EDEDED;
 	background: url('../img/simbolo-grupo-bg.png') no-repeat left;
 	background-size: 320px;

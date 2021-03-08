@@ -71,6 +71,17 @@ body {
 	cursor: pointer;
 }
 
+.contato-home-duvidas {
+	padding: 20px 55px;
+	font-size: 18px;
+	background: #6B3CB7;
+	border-radius: 35px;
+	color: #fff;
+	font-family: var(--UniNeue-HeavyItalic);
+	cursor: pointer;
+}
+
+
 .contato-home-dois {
 	padding: 18px 86px;
 	font-size: 18px;
@@ -321,6 +332,16 @@ body {
 		background: none;
 	}
 }
+/* / * Div Valores * / */
+.div-valores > p > b {
+	font-weight: bold;
+}
+
+.div-valores > p > a {
+	color: #6B3CB7;
+}
+
+
 /* / * O que Valorizamos * / */
 
 .oque-valorisamos-container {
