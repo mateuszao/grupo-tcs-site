@@ -3,7 +3,6 @@ export default function initModal() {
   const botaoFechar = document.querySelector('[data-modal="fechar"]');
   const containerModal = document.querySelector('[data-modal="container"]');
   
-  console.log(botaoAbrir);
   if(botaoAbrir && containerModal) {
     
     function toggleModal(event) {

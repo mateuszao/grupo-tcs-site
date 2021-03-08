@@ -2,7 +2,6 @@ export default function initModalValores() {
   const botaoAbrir = document.querySelectorAll('[data-modal="abrir-valores"]');
   const containerModal = document.querySelector('[data-modal="container-valores"]');
   
-  console.log(botaoAbrir);
   if(botaoAbrir && containerModal) {
     
     function toggleModal(event) {

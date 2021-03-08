@@ -610,6 +610,14 @@ body {
 	padding-top: 0;
 }
 
+#timeline-desktop {
+	display: block;
+}
+
+#timeline-mobile {
+	display: none;
+}
+
 @media (max-height: 820px) {
 	.timeline-container {
 		height: auto;
@@ -632,6 +640,21 @@ body {
 	.timeline-container h1{
 		font-size: 38px;
 	}
+
+	.timeline-desktop {
+		display: none;
+	}
+}
+
+@media (max-width: 720px) {
+	#timeline-desktop {
+		display: none;
+	}
+
+	#timeline-mobile {
+		display: block;
+	}
+	
 }
 
 
