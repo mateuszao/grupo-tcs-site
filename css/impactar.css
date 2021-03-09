@@ -195,10 +195,3 @@
 
 	padding: 60px 0 60px 0;
 }
-
-@media (max-width: 720px) {
-	.container-processo-luminus {
-		background: #FFFFFF;
-	}
-}
-
