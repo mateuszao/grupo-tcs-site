@@ -33,6 +33,7 @@
   position: relative;
 }
 
+
 form {
   padding: 40px;
 }
@@ -183,4 +184,34 @@ textarea.form-control {
   width: 100%;
   font-family: var(--Montserrat);
   font-size: 1rem;
+}
+
+
+/* / * Valores Modal * / */
+.valores-modal p {
+  max-width: 600px;
+  padding: 20px;
+  color: #212529;
+  font-family: var(--Montserrat);
+  font-size: 22px;
+  padding-bottom: 25px;
+}
+
+.valores-modal p > b {
+  font-weight: bold;
+}
+
+.modal-valores {
+  background: #FAFAFA;
+  min-width: 300px;
+  position: relative;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+
+@media(max-width : 472px){
+  .valores-modal p {
+    max-width: 330px;
+  }
 }
