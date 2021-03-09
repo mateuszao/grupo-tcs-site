@@ -1,4 +1,4 @@
-/* / * Home * / */
+/* ====== Home ====== */
 .container-impactar {
   width: 100%;
   height: 10vh;
@@ -15,7 +15,6 @@
   justify-content: space-between;
 }
 
-
 .body-container-impactar h1 {
   color: #FFFFFF;
   font-family: var(--UniNeue-HeavyItalic);
@@ -23,6 +22,14 @@
 	margin-left: 20px;
 }
 
+@media(max-width : 472px){	
+	.home-impactar {
+		height:30vh;
+		background: url('../img/impactar-bg-mobile.png') no-repeat;
+	}
+}
+
+/* ====== Primeira sessão iniciativa ====== */
 
 .home-impactar {
   height: 30vh;
@@ -34,6 +41,29 @@
   justify-content: center;
 	margin-top: calc(110px + 10vh);
 }
+
+.iniciativa-container {
+	width: 100%;
+	height: auto;
+	border: #4D2C84 solid 4px;
+	padding-top: 60px;
+}
+
+.iniciativa-container h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 42px;
+	color: #505050;
+}
+
+.iniciativa-container p{
+	font-family: var(--UniNeue-Light);
+	font-size: 22px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	color: #505050;
+	max-width: 600px;
+}
+
 
 
 .div-impactar h1{
@@ -52,29 +82,18 @@
 	}
 }
 
-@media(max-width : 472px){	
-	.home-impactar {
-		height:30vh;
-		background: url('../img/impactar-bg-mobile.png') no-repeat;
-	}
-}
+
 
 /* / * Impactar somo container * / */
 .impactar-somos-container {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	/* border: #4D2C84 solid 4px; */
+	border: #4D2C84 solid 4px;
 	background: url('../img/bolinhas.png') right no-repeat;
 	background-position: 110% 38%;
 }
 
-.impactar-somos-container h1{
-	font-family: var(--UniNeue-HeavyItalic);
-	font-size: 42px;
-	padding-top: 60px;
-	color: #505050;
-}
 
 .impactar-somos-container p{
 	font-family: var(--UniNeue-Light);
@@ -114,6 +133,8 @@
 
 .numeros-container {
 	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .numeros-container h1{
@@ -167,7 +188,7 @@
 
 /* Impactar sessão 03  */
 .impactar-container {
-	width: 100%;
+	width: 99%;
   margin-bottom: 60px;
 }
 
