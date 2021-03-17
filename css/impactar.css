@@ -60,10 +60,8 @@
 	padding-top: 30px;
 	padding-bottom: 60px;
 	color: #505050;
-	max-width: 600px;
+	/* max-width: 600px; */
 }
-
-
 
 .div-impactar h1{
   font-family: var(--UniNeue-HeavyItalic);
@@ -74,6 +72,10 @@
   justify-content: left;
 }
 
+.some-destop {
+	display: none;
+}
+
 @media(max-width: 986px){
 	.div-container h1{
 		max-width: 330px;
@@ -82,6 +84,14 @@
 
 	.home-impactar {
 		background: url('../img/impactar-bg-mobile.png') no-repeat;
+	}
+
+	.some-mobile {
+		display: none;
+	}
+
+	.aparece-mobile {
+		display: block;
 	}
 }
 
@@ -148,11 +158,13 @@
 .impactar-somos-container {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
-	background: url('../img/bolinhas.png') right no-repeat;
-	background-position: 110% 38%;
+	padding-top: 60px;
 }
-
+.impactar-somos-container h1 {
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 42px;
+	color: #505050;
+}
 
 .impactar-somos-container p{
 	font-family: var(--UniNeue-Light);
@@ -160,7 +172,6 @@
 	padding-top: 30px;
 	padding-bottom: 60px;
 	color: #505050;
-	max-width: 600px;
 }
 
 @media(max-width: 986px){
@@ -183,7 +194,7 @@
 	}
 
 	.impactar-somos-container {
-		background: none;
+		padding-top: 30px;
 	}
 }
 
@@ -194,4 +205,17 @@
 	background: #F3F3F3;
 
 	padding: 60px 0 60px 0;
+}
+
+.container-processo-luminus h1{
+	font-family: var(--UniNeue-HeavyItalic);
+	font-size: 42px;
+	color: #505050;
+	padding-bottom: 30px;
+}
+
+@media(max-width: 986px){
+	.container-processo-luminus h1{
+		padding-bottom: 30px;
+	}
 }
