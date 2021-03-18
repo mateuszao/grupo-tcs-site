@@ -23,6 +23,13 @@
 	margin-left: 20px;
 }
 
+.body-container-valorizar i {
+  color: #FFFFFF;
+  font-size: 25px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
 
 .home-valorizar {
   height: 30vh;
@@ -50,9 +57,9 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	/* border: #4D2C84 solid 4px; */
 	background: url('../img/bolinhas.png') right no-repeat;
 	background-position: 110% 38%;
+	padding-bottom: 60px;
 }
 
 .valorizar-container h1{
@@ -60,15 +67,38 @@
 	font-size: 42px;
 	padding-top: 60px;
 	color: #505050;
+	padding-bottom: 30px;
 }
 
 .valorizar-container p{
 	font-family: var(--UniNeue-Light);
 	font-size: 22px;
-	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-bottom: 15px;
 	color: #505050;
-	max-width: 600px;
+}
+
+.valorizar-container ul.disc {
+	list-style-type: disc;
+	font-family: var(--UniNeue-Light);
+	font-size: 22px;
+	padding-bottom: 15px;
+	color: #505050;
+	padding-left: 25px;
+	padding-bottom: 30px;
+}
+
+.valorizar-container .disc li {
+	padding-top: 5px;
+}
+
+@media(max-width: 1140px){ 
+	.valorizar-container p{
+		max-width: 600px; 
+	}
+
+	.valorizar-container {
+		background-position: 123% 15%;
+	}
 }
 
 @media(max-width: 986px){
@@ -104,3 +134,47 @@
 	}
 }
 
+/* / * Toggle Menu * / */
+
+[data-dropdown] {
+  position: relative;
+}
+
+[data-dropdown] .dropdown-menu {
+  display: none;
+}
+
+[data-dropdown]:hover .dropdown-menu,
+[data-dropdown].active .dropdown-menu {
+  display: flex;
+  animation: show-up .3s forwards;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 25px;
+  background: #2B2B2B;
+  z-index: 200;
+  right: 18px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--UniNeue-HeavyItalic);
+  padding-bottom: 30px;
+	font-size: 22px;
+}
+
+.dropdown-menu li a:hover {
+  color: white;
+}
+
+.dropdown-menu li {
+  padding-top: 40px;
+}
+
+.dropdown-menu li a {
+  /* border: springgreen solid 5px; */
+  color: #fff;
+  padding: 10px;
+}

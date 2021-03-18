@@ -23,6 +23,12 @@
 	margin-left: 20px;
 }
 
+.body-container-empreender i {
+  color: #FFFFFF;
+  font-size: 25px;
+  padding-right: 30px;
+  cursor: pointer;
+}
 
 .home-empreender {
   height: 30vh;
@@ -46,12 +52,11 @@
 }
 
 
-/* / * Impactar somo container * / */
+/* / * Empreender container * / */
 .empreender-container {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	/* border: #4D2C84 solid 4px; */
 	background: url('../img/bolinhas.png') right no-repeat;
 	background-position: 110% 38%;
 }
@@ -69,7 +74,12 @@
 	padding-top: 30px;
 	padding-bottom: 60px;
 	color: #505050;
-	max-width: 600px;
+	/* max-width: 600px; */
+}
+@media(max-width: 1024px){ 
+	.empreender-container p{
+		max-width: 600px;
+	}
 }
 
 @media(max-width: 986px){
@@ -101,3 +111,52 @@
   
 }
 
+/* / * Imagem Empreender * / */
+.img-texto-emprender {
+	padding: 60px 0 60px 0;
+}
+
+/* / * Toggle Menu * / */
+
+[data-dropdown] {
+  position: relative;
+}
+
+[data-dropdown] .dropdown-menu {
+  display: none;
+}
+
+[data-dropdown]:hover .dropdown-menu,
+[data-dropdown].active .dropdown-menu {
+  display: flex;
+  animation: show-up .3s forwards;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 25px;
+  background: #2B2B2B;
+  z-index: 200;
+  right: 18px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--UniNeue-HeavyItalic);
+  padding-bottom: 30px;
+	font-size: 22px;
+}
+
+.dropdown-menu li a:hover {
+  color: white;
+}
+
+.dropdown-menu li {
+  padding-top: 40px;
+}
+
+.dropdown-menu li a {
+  /* border: springgreen solid 5px; */
+  color: #fff;
+  padding: 10px;
+}
