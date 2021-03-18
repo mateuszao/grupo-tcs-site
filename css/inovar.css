@@ -59,6 +59,7 @@
 	justify-content: space-between;
 	background: url('../img/bolinhas.png') right no-repeat;
 	background-position: 110% 38%;
+  padding-bottom: 60px;
 }
 
 .inovar-container h1{
@@ -66,15 +67,25 @@
 	font-size: 42px;
 	padding-top: 60px;
 	color: #505050;
+  padding-bottom: 30px;
 }
 
 .inovar-container p{
 	font-family: var(--UniNeue-Light);
 	font-size: 22px;
-	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-bottom: 15px;
 	color: #505050;
-	max-width: 600px;
+	/* max-width: 600px; */
+}
+
+@media(max-width: 1140px){ 
+	.inovar-container p{
+		max-width: 600px; 
+	}
+
+	.inovar-container {
+		background-position: 123% 15%;
+	}
 }
 
 @media(max-width: 986px){
