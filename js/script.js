@@ -5,6 +5,7 @@ import animaSite from './modules/animaSite.js';
 import scrollInterno from './modules/scrollInterno.js';
 import initModal from './modules/initModal.js';
 import initModalValores from './modules/initModalValores.js';
+import cardCarreiras from './modules/cardCarreiras.js';
 
 scrollMenu();
 menuMobile();
@@ -13,3 +14,4 @@ animaSite();
 scrollInterno();
 initModal();
 initModalValores();
+cardCarreiras();
