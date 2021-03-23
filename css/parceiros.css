@@ -42,14 +42,20 @@
 
 @media(max-width: 986px){
 	.home-parceiros {
-		height: 30vh;
+		height: 60vh;
 	}
+
+  .home-parceiros h1 {
+    font-size: 38px;
+  }
 }
 
 @media(max-width : 472px){	
 	.home-parceiros {
-		height: 30vh;
+		height: 70vh;
+    background: url('../img/parceiros-bg-mobile.png') no-repeat;
 	}
+  
 }
 
 .container-img-empresas {
